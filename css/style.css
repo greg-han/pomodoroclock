@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Contrail+One');
+
+body{
+ background-color: #0d1721;
+}
+i{
+ border: white;
+ border-width: 0 3px 3px 0;
+ padding: 3px;
+}
+a{
+ border: white;
+ border-width: 0 3px 3px 0;
+ padding: 3px;
+}
+
+#start{
+ color:white;
+}
+
+#pause{
+ color:white;
+}
+
+#breaktext{
+ color:white;
+ font-weight:bold;
+ font-family: 'Contrail One', cursive;
+ font-size: 1.5em;
+ margin-top: 3px;
+}
+
+#timetext{
+ color:white;
+ font-weight:bold;
+ font-family: 'Contrail One', cursive;
+ font-size: 1.5em;
+ margin-bottom:10px;
+}
+#breakword{
+ color:white;
+ font-weight:bold;
+ font-family: 'Contrail One', cursive;
+ font-size: 1em;
+}
+#timeword{
+ color:white;
+ font-weight:bold;
+ font-family: 'Contrail One', cursive;
+ font-size: 1em;
+}
+#time{
+ color:white;
+ font-weight: bold;
+ text-align:center;
+ font-size: 50px;
+ margin-top: 10%;
+}
+.fa-refresh{
+ color:white;
+ margin-top: 13%;
+ margin-left: 31%;
+}
+
+.fa-play{
+ color:white;
+ margin-top: 13%;
+ margin-left: 3%;
+}
+
+.fa-pause{
+ color: white;
+ margin-top: 13%;
+ margin-left: 3%;
+}
+.fa-chevron-up{
+ color: white;
+}
+
+.fa-chevron-down{
+ color: white;
+}
+
+.time-num{
+ font-size: 25px;
+ font-weight: bold;
+ color:white;
+}
+
+i:hover{
+ color: green;
+ cursor: pointer;
+}
+a:hover{
+ color:red;
+ cursor: pointer;
+}
+
+#start:hover{
+ color: green;
+ cursor: pointer;
+}
+#pause:hover{
+ color:red;
+ cursor: pointer;
+}
+
+.fat-text{
+ margin-top: 1.5%;
+ text-align: center;
+ font-family: 'Contrail One', cursive;
+ font-weight: 200;
+ font-size: 3.3em;
+ color: white;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#timer-box{
+ height: 150px;
+ width: 200px;
+ margin-top: 1.25%;
+ border: 5px solid white;
+ border-radius: 20%;
+}
+
+#break-arrows{
+ margin-right: 5%;
+ text-align: center;
+}
+
+#timer-arrows{
+ margin-left: 5%;
+ text-align:center;
+}
+
+.fa { 
+  transform: scale(1.5,1.5); 
+}

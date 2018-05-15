@@ -1,0 +1,28 @@
+<!-- <button id="borderless"></button>
+-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<div class="fat-text container">Glorified Stopwatch</div>
+<div class="container d-inline">
+<div id="break-arrows">
+<a id="breakword">break</a><br>
+<i id="up-button1" class="fa fa-chevron-up" onclick='incrementplus("up-button1");'></i>
+  <div id="break-num"class="time-num">0</div>
+<a class="fa fa-chevron-down" onclick='incrementminus("down-button1");'></a>
+</div>
+<div id="timer-box">
+  <p id="breaktext"></p><br>
+  <p id="time">00:00</p>
+  <i id="refresh" class="fa fa-refresh" onclick="refresh()" aria-hidden="true"></i>
+  <i id="start" class="fa fa-play" onclick="setTimer(document.getElementById('time-num').innerHTML,document.getElementById('break-num').innerHTML)" aria-hidden="true"></i>
+  <a id="pause" class="fa fa-pause" onclick="pause()" aria-hidden="true"></a>
+  </div>
+<div id="timer-arrows">
+<a id="timeword">time</a><br>
+<i id="up-button2" class="fa fa-chevron-up" onclick='incrementplus("up-button2");'></i>
+  <div id="time-num" class="time-num" >0</div>
+<a id="down-button2" class="fa fa-chevron-down" onclick='incrementminus("down-button2");'></a>
+</div>
+
+</div>
+
+
