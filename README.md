@@ -5,6 +5,7 @@ It will loop until you press the refresh button which resets the entire timer.
 Everything should resize itself correctly without shifting elements (even as the numbers grow), but this has been finicky.
 
 Link to site: https://greg-han.github.io/pomodoroclock/
+
 If the github page is down the project is viewable on codepen:
 https://codepen.io/greg-han/pen/NMBgQj
 
