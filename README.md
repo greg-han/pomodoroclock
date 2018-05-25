@@ -6,7 +6,7 @@ Everything should resize itself correctly without shifting elements (even as the
 
 Link to site: https://greg-han.github.io/pomodoroclock/
 If the github page is down the project is viewable on codepen:
-https://codepen.io/greg-han/pen/demLNW
+https://codepen.io/greg-han/pen/NMBgQj
 
 ## Features
 
